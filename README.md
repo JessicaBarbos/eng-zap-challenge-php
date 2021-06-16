@@ -13,6 +13,9 @@ Projeto escrito com framework Laravel.
 Clonar o repositório
 Na pasta escolhida rodar o comando composer install.
 Dentro do projeto executar o comando php artisan serve
+Subi juntamente o arquivo .env para pegar a key, tambem pode copiar o arquivo .env.example para dentro do .env
+
+Caso não rode executar php artisan key:generate para gerar uma nova key
 
 ## Endpoints
 
