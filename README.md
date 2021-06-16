@@ -6,7 +6,7 @@ Projeto escrito com framework Laravel.
 ## Requisitos:
 - PHP 7.2 ou superior
 - Extensão PHP Mbstring
-- Depencias solicitadas pelo Laravel (https://laravel.com/docs).
+- Dependências solicitadas pelo Laravel (https://laravel.com/docs).
 - Composer
 
 ## Instalação
