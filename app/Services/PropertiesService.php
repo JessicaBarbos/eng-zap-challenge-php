@@ -40,7 +40,7 @@ class PropertiesService
         'listings' => $newProperties
         ];
         
-        return json_encode($newProperties);
+        return "<pre>" . json_encode($newProperties, JSON_PRETTY_PRINT) . "</pre>";
 
     }
 
@@ -70,8 +70,8 @@ class PropertiesService
         'totalCount' => $totalCount,
         'listings' => $newProperties
         ];
-        dd($newProperties);
-        return json_encode($newProperties);
+       
+        return "<pre>" . json_encode($newProperties, JSON_PRETTY_PRINT) . "</pre>";
     
     }
 
